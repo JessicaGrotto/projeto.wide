@@ -81,31 +81,79 @@ p{
     border: none;
 }
 
-@media  and (max-width 900px) 
-{
-    body{
+@media screen and (max-width:850px) {
+
+    a{
+        display: none;
+    }
+
+    *{
         padding: 0;
         margin: 0;
         width: 100%;
-        height: 100%;
+    }
+
+    header{
+        margin: 0;
+    }
+
+    .button-header{
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        margin-left: 284px;
+        margin-top: 17px;
+        margin-right: 15px;   
+    }
+
+    main{
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    .logo-image{
+        width: 312px;
+        height: 288px;
+        margin-left: 39px;
+        margin-right: 39px;
+        margin-top: 59px;
+    }
+
+    h1{
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        width: 278px;
+        height: 60px;
+        margin-left: 56px;
+        margin-right: 56px;
+        margin-top: 76px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        width: 304px;
+        margin-left: 43px;
+    }
+
+    .button-img{
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 26px;
+        height: 27px;
         display: block;
     }
 
-    .link-header{
-        display: none;
-    }
-    .button-header{
-        
-    }
-    
-    h1{
-        width: 354px;
-        height: 317px;
-        text-align: center;
-        letter-spacing: 0.596154px;
-        margin-top: 76px;
-        margin-right: 55px;
-        margin-left: 57px;
-        
-    }
-}
+
+
+
+} 
